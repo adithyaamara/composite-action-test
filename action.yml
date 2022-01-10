@@ -1,0 +1,8 @@
+name: 'Composite action test'
+description: 'Log some message when invoked'
+
+runs:
+  using: "composite"
+  steps: 
+    - run: |
+        echo "You have successfully invoked a composite action"
